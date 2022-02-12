@@ -10,5 +10,6 @@
   "light": "Light",
   "dark": "Dark",
   "suraname": "Sura Name",
+  "count": "Number Of Praises",
   "hadethname": "Hadeth Name"
 }

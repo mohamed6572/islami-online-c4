@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami_online_c4/providers/AppConfigProvider.dart';
 import 'package:provider/provider.dart';
 
@@ -62,7 +63,7 @@ class _TasbehTabState extends State<TasbehTab> {
             height: 30,
           ),
           Text(
-            'عدد التسبيحات ',
+            AppLocalizations.of(context)!.count,
             style: TextStyle(
               fontSize: 25,
               color: provider.isDarkMode() ? Colors.white : Colors.black,
